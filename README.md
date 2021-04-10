@@ -1,4 +1,7 @@
 
+<br />
+<br />
+<br />
 <!-- PROJECT LOGO -->
 <p align="center">
   <a href="https://github.com/OmegaCoding5505/Simple-Calculator-GUI">
