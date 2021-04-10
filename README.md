@@ -23,8 +23,10 @@
 </p>
 
 ## About The Project
-Functions include:
+  <br />
   <p align="center">
       <img src="calc.JPG" alt="Logo">
   </p>
+  <br />
+  Functions include:
   Operations like Addition, Subtraction, Multiplication and Divison.
