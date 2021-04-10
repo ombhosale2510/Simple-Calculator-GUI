@@ -5,9 +5,9 @@ root.title("Simple Calculator")
 root.configure(background='black')
 root.resizable(False, False)
 
-e = Entry(root, width=45, borderwidth=5)
+e = Entry(root, bg="black", fg="white")
 e.focus()
-e.grid(row=0, column=0, columnspan=3, padx=5, pady=5)
+e.grid(row=0, column=0, columnspan=3, sticky=NSEW)
 
 
 def button_click(number):
