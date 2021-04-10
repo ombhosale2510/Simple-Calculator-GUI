@@ -24,4 +24,7 @@
 
 ## About The Project
 Functions include:
+  <p align="center">
+      <img src="calc.JPG" alt="Logo">
+  </p>
   Operations like Addition, Subtraction, Multiplication and Divison.
