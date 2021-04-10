@@ -3,6 +3,7 @@ from tkinter import *
 root = Tk()
 root.title("Simple Calculator")
 root.configure(background='black')
+root.resizable(False, False)
 
 e = Entry(root, width=45, borderwidth=5)
 e.focus()
