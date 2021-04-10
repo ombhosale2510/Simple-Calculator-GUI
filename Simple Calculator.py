@@ -5,7 +5,7 @@ root.title("Simple Calculator")
 root.configure(background='black')
 root.resizable(False, False)
 
-e = Entry(root, bg="black", fg="white")
+e = Entry(root, bg="black", fg="white", font=("default", 20))
 e.focus()
 e.grid(row=0, column=0, columnspan=3, sticky=NSEW)
 
