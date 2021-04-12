@@ -3,9 +3,11 @@ from tkinter import *
 root = Tk()
 root.title("Simple Calculator")
 root.configure(background='black')
+root.iconbitmap("calc_icon.ico")
 root.resizable(False, False)
 
-e = Entry(root, bg='black', fg='white', font=("Arial", 20), insertbackground="white")
+e = Entry(root, bg='black', fg='white', font=(
+    "Arial", 20), insertbackground="white")
 e.focus()
 e.grid(row=0, column=0, columnspan=3, sticky=NSEW)
 
