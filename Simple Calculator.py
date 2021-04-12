@@ -5,11 +5,12 @@ root.title("Simple Calculator")
 root.configure(background='black')
 root.resizable(False, False)
 
-e = Entry(root, bg='black', fg='white', font=("Arial", 20))
+e = Entry(root, bg='black', fg='white', font=("Arial", 20), insertbackground="white")
 e.focus()
 e.grid(row=0, column=0, columnspan=3, sticky=NSEW)
 
 
+# Button which inserts number on screen when clicked
 def button_click(number):
     current = e.get()
     # put e.del so it doesnt print earlier inputs again instead just keeps the inputs
@@ -18,6 +19,7 @@ def button_click(number):
     e.insert(0, str(current) + str(number))
 
 
+# Function to add the numbers selected
 def button_add():
     first_number = e.get()
     global f_num
@@ -27,6 +29,7 @@ def button_add():
     e.delete(0, END)
 
 
+# Function to subtract the numbers selected
 def button_subtract():
     first_number = e.get()
     global f_num
@@ -36,6 +39,7 @@ def button_subtract():
     e.delete(0, END)
 
 
+# Function to multiply the numbers selected
 def button_multiply():
     first_number = e.get()
     global f_num
@@ -45,6 +49,7 @@ def button_multiply():
     e.delete(0, END)
 
 
+# Function to divide the numbers selected
 def button_divide():
     first_number = e.get()
     global f_num
@@ -54,6 +59,7 @@ def button_divide():
     e.delete(0, END)
 
 
+# Function to display the operated numbers
 def button_equal():
     second_number = e.get()
     e.delete(0, END)
@@ -71,6 +77,7 @@ def button_equal():
         e.insert(0, f_num / int(second_number))
 
 
+# Clears the entry box
 def button_clear():
     e.delete(0, END)
 
