@@ -29,5 +29,5 @@
   </p>
   <br />
   Functions include:
-  Operations like Addition, Subtraction, Multiplication and Divison.
+  Operations like Addition, Subtraction, Multiplication and Division.
   
